@@ -1,4 +1,4 @@
-package scheduler
+package server
 
 import kotlinx.serialization.Serializable
 import org.optaplanner.core.api.domain.entity.PlanningEntity

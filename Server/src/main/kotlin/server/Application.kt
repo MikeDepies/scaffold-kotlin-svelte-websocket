@@ -1,4 +1,4 @@
-package scheduler
+package server
 import Auth0Config
 import applicationModule
 import io.ktor.application.*
@@ -11,7 +11,7 @@ import mu.KotlinLogging
 import org.koin.ktor.ext.Koin
 import org.koin.ktor.ext.get
 import org.slf4j.event.Level
-import scheduler.server.WebSocketManager
+import server.server.WebSocketManager
 import java.time.Duration
 
 

@@ -1,4 +1,4 @@
-package scheduler.database
+package server.database
 
 import org.jetbrains.exposed.dao.id.IntIdTable
 import org.jetbrains.exposed.sql.Table

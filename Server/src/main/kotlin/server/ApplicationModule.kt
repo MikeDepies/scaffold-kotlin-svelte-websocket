@@ -5,9 +5,9 @@ import io.ktor.client.features.json.*
 import io.ktor.client.features.json.serializer.*
 import io.ktor.client.features.logging.*
 import io.ktor.client.features.websocket.*
-import scheduler.message.endpoints.EndpointProvider
+import server.message.endpoints.EndpointProvider
 import org.koin.dsl.module
-import scheduler.server.WebSocketManager
+import server.server.WebSocketManager
 
 val applicationModule = module {
     single<MessageWriter> { MessageWriterImpl(get(), get(), get())  /*LocalMessageWriter()*/ }

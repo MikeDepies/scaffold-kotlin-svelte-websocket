@@ -1,4 +1,4 @@
-package scheduler.server
+package server.server
 
 import ClientRegistry
 import JsonPlayerMessage
@@ -11,7 +11,7 @@ import io.ktor.routing.*
 import io.ktor.websocket.*
 import kotlinx.serialization.json.Json
 import mu.KotlinLogging
-import scheduler.previewMessage
+import server.previewMessage
 
 private val log = KotlinLogging.logger { }
 

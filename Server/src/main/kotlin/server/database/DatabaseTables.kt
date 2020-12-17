@@ -1,4 +1,4 @@
-package scheduler.database
+package server.database
 
 import com.zaxxer.hikari.HikariConfig
 import kotlinx.serialization.Serializable

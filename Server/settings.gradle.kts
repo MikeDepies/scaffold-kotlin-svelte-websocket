@@ -1,3 +1,3 @@
 
-rootProject.name = "ScheduleServer"
+rootProject.name = "Server"
 

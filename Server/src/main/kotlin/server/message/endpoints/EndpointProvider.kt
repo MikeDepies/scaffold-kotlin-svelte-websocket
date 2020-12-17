@@ -1,4 +1,4 @@
-package scheduler.message.endpoints
+package server.message.endpoints
 
 import JsonPlayerMessage
 import MessageAdapter
